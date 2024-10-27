@@ -45,17 +45,15 @@ class HomeController {
         }
     }
 
-
-
-  /* @GetMapping()
-    fun home(@RequestBody model: Model): ResponseEntity<*> {
-        return ResponseEntity (
-            SuccessResponse().apply {
-            status = "success"
-            data = model
-        }, HttpStatus.OK
-        )
-    }*/
+    /* @GetMapping()
+      fun home(@RequestBody model: Model): ResponseEntity<*> {
+          return ResponseEntity (
+              SuccessResponse().apply {
+              status = "success"
+              data = model
+          }, HttpStatus.OK
+          )
+      }*/
 
 
 
